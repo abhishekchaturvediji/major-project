@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("Mask\ Group\ 1.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    width: 99%;
+    height: 60px;
+    padding-top: 50px;
+    padding: 70px;
+    padding-left: 110px;
+    color: white;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 15px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+
+
+}
+nav i{
+    margin-right:30px ;
+    color:black;
+}
+nav button{
+    padding: 10px;
+    color:white ;
+    border: none;
+    background-color: tomato;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+}
+#content{
+    width: 100%;
+}
+#left{
+    color: white;
+    padding: 75px;
+    margin-top: -20px;
+    width:35%;
+    line-height: 30px;
+}
+#left h6{
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+#left>button{
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    color:white ;
+    border: none;
+    background-color:#5bbae6;
+    text-transform: capitalize;
+    border-radius: 6px;
+    margin-top: 15px;
+
+}
+#stats{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+
+#stats>img{
+    height: 450px;
+    width: 600px;   
+    
+}
